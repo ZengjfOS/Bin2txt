@@ -19,6 +19,6 @@
             Print_Help()
         else:
             print 'Unknown', option, 'option!'
-            # 添加这条语句，这里结束了后续没必要运行了。
-            return                      # <-- error 2
+        # 添加这条语句，这里结束了后续没必要运行了。
+        return                          # <-- error 2
 ```
